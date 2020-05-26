@@ -16,6 +16,6 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require pierrestoffe/craft-language-redirector (no official release yet, so version should be `@dev`)
+        composer require pierrestoffe/craft-component-based-templating (no official release yet, so version should be `@dev`)
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Component-based Templating.
