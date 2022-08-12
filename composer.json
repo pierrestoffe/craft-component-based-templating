@@ -2,7 +2,7 @@
     "name": "pierrestoffe/craft-component-based-templating",
     "description": "Templating in a component-based environment",
     "type": "craft-plugin",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "keywords": [
         "craft",
         "cms",
