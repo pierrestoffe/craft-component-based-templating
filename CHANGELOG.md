@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+## [2.0.2] - 2022-08-12
+### Fixed
+- Properly added support for Craft CMS 4
+
 ## [2.0.1] - 2022-08-12
 ### Fixed
 - Fixed typo
