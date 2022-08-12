@@ -15,13 +15,15 @@ use Craft;
 use pierrestoffe\componentbasedtemplating\ComponentBasedTemplating;
 use pierrestoffe\componentbasedtemplating\services\ComponentsService;
 use pierrestoffe\componentbasedtemplating\services\GroupsService;
+use Twig\Extension\AbstractExtension;
+use Twig\Extension\GlobalsInterface;
 
 /**
  * @author    Pierre Stoffe
  *
  * @since     1.0.0
  */
-class ComponentBasedTemplatingTwigExtension extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
+class ComponentBasedTemplatingTwigExtension extends AbstractExtension implements GlobalsInterface
 {
     // Public Methods
     // =========================================================================
@@ -29,7 +31,7 @@ class ComponentBasedTemplatingTwigExtension extends \Twig_Extension implements \
     /**
      * @var ComponentBasedTemplating
      */
-    public function getGlobals()
+    public function getGlobals(): array
     {
         $componentsName = ComponentBasedTemplating::getInstance()->getSettings()->componentsName;
         $groupsName = ComponentBasedTemplating::getInstance()->getSettings()->groupsName;
